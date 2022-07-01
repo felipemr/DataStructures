@@ -9,11 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Test Array")
-            .padding()
-            .onTapGesture {
+        VStack {
+            Text("Data Structs")
+                .padding()
+                .font(.largeTitle.bold())
+            Button("Test Array") {
                 testArray()
             }
+            .padding()
+            .buttonStyle(.bordered)
+            Button("Test Stack") {
+                testStack()
+            }
+            .padding()
+            .buttonStyle(.bordered)
+        }
     }
 
     func testArray() {
@@ -33,13 +43,23 @@ struct ContentView: View {
 
         array.imprimir()
 
-        array.remove(aluno: Membro(nome: "Gabriel"))
+        array.remove(Membro: Membro(nome: "Gabriel"))
 
         array.imprimir()
 
         print("tamanho: \(array.tamanho())")
-        print("E o Rogi? ta lá? \(array.contains(aluno: Membro(nome: "Roger")))")
-        print("E o Mathias? ta lá? \(array.contains(aluno: Membro(nome: "Mathias")))")
+        print("E o Rogi? ta lá? \(array.contains(Membro: Membro(nome: "Roger")))")
+        print("E o Mathias? ta lá? \(array.contains(Membro: Membro(nome: "Mathias")))")
+    }
+
+    func testStack() {
+        var stack: Stack = [1,3,5,7,9]
+        print("Stack created: \(stack)")
+        stack.push(2)
+        print("Wrong number added: \(stack)")
+        _ = stack.pop()
+        print("Now its fixed again! \(stack)")
+
     }
 }
 
