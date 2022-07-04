@@ -17,7 +17,7 @@
 		364A3F68286F14EB000E2A14 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A3F67286F14EB000E2A14 /* Stack.swift */; };
 		364A3F69286F1CD3000E2A14 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A3F65286D244B000E2A14 /* Array.swift */; };
 		364A3F6A286F1CD6000E2A14 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A3F67286F14EB000E2A14 /* Stack.swift */; };
-		364A3F6C286F1F42000E2A14 /* LinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A3F6B286F1F42000E2A14 /* LinkedLists.swift */; };
+		364A3F6C286F1F42000E2A14 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A3F6B286F1F42000E2A14 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		364A3F53286D23EF000E2A14 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		364A3F65286D244B000E2A14 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		364A3F67286F14EB000E2A14 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		364A3F6B286F1F42000E2A14 /* LinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLists.swift; sourceTree = "<group>"; };
+		364A3F6B286F1F42000E2A14 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			children = (
 				364A3F65286D244B000E2A14 /* Array.swift */,
 				364A3F67286F14EB000E2A14 /* Stack.swift */,
-				364A3F6B286F1F42000E2A14 /* LinkedLists.swift */,
+				364A3F6B286F1F42000E2A14 /* LinkedList.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				364A3F68286F14EB000E2A14 /* Stack.swift in Sources */,
 				364A3F66286D244B000E2A14 /* Array.swift in Sources */,
 				364A3F56286D23EF000E2A14 /* ContentView.swift in Sources */,
-				364A3F6C286F1F42000E2A14 /* LinkedLists.swift in Sources */,
+				364A3F6C286F1F42000E2A14 /* LinkedList.swift in Sources */,
 				364A3F54286D23EF000E2A14 /* DataStructyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
